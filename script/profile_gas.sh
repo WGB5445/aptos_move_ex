@@ -1,0 +1,1 @@
+aptos move run-script --profile-gas  --script-path ./test_script/test_script.move

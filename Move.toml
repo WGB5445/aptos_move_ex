@@ -1,0 +1,16 @@
+[package]
+name = 'aptos_move_example'
+version = '1.0.0'
+
+[addresses]
+GameCreator = "0x82028c2faa84fca8eb0f0162bd16954bdcff9938df9562af454ca42b25aeb8d8"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-token-objects"
